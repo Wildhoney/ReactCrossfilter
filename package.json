@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/Wildhoney/ReactCrossfilter/issues"
   },
-  "homepage": "https://github.com/Wildhoney/ReactCrossfilter"
+  "homepage": "https://github.com/Wildhoney/ReactCrossfilter",
+  "devDependencies": {
+    "express": "^4.12.1"
+  }
 }
