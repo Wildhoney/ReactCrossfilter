@@ -1,0 +1,29 @@
+{
+  "name": "react-crossfilter",
+  "version": "0.1.0",
+  "description": "Crossfilter.js implemented as a React.js mixin for ultra-fast filtering and sorting techniques.",
+  "main": "dist/react-crossfilter.min.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wildhoney/ReactCrossfilter.git"
+  },
+  "keywords": [
+    "crossfilter",
+    "react",
+    "react.js",
+    "crossfilter.js",
+    "searching",
+    "filtering",
+    "sorting",
+    "ordering"
+  ],
+  "author": "Adam Timberlake <adam.timberlake@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wildhoney/ReactCrossfilter/issues"
+  },
+  "homepage": "https://github.com/Wildhoney/ReactCrossfilter"
+}
