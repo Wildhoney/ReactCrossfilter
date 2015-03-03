@@ -7,8 +7,7 @@
         server  = require('http').createServer(app),
         request = require('request'),
         agents  = require('user-agents'),
-        tidy    = require('htmltidy').tidy,
-        table   = '';
+        table   = [];
 
     app.use(express.static(__dirname + '/..'));
     server.listen($process.env.PORT || 5000);

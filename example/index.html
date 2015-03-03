@@ -5,16 +5,23 @@
     <meta charset="UTF-8" />
     <title>ReactCrossfilter</title>
 
-    <!-- Dependencies! -->
-    <script type="text/javascript" src="example/vendor/react/react.js"></script>
-    <script type="text/javascript" src="example/vendor/crossfilter/crossfilter.js"></script>
-    <script type="text/javascript" src="example/vendor/react-crossfilter/react-crossfilter.js"></script>
+    <!-- Polyfills! -->
+    <script type="text/javascript" src="vendor/es6-promise/promise.js"></script>
+    <script type="text/javascript" src="vendor/fetch/fetch.js"></script>
+
+    <!-- Libraries! -->
+    <script type="text/javascript" src="vendor/react/react.js"></script>
+    <script type="text/javascript" src="vendor/react/JSXTransformer.js"></script>
+    <script type="text/javascript" src="vendor/crossfilter/crossfilter.js"></script>
+    <script type="text/javascript" src="vendor/react-crossfilter/react-crossfilter.js"></script>
 
     <!-- Application! -->
-    <script type="text/jsx" src="example/ReactCrossfilter.jsx" />
+    <script type="text/jsx" src="jsx/ReactCrossfilter.jsx"></script>
 
 </head>
 <body>
+
+    <section is="react-crossfilter"></section>
 
 </body>
 </html>
